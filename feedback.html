@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Submit Feedback</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Submit Feedback</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="grades Table.html">Grades Table</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2>Feedback Form</h2>
+
+        <form>
+
+            
+            <label for="name">Your Name:</label><br>
+
+            <input type="text" id="name" name="name"  placeholder="Enter your name">
+
+            <br><br>
+
+            <label for="email">Email Address:</label><br>
+
+            <input 
+                type="email" id="email" name="email"  placeholder="Enter your email">
+
+            <br><br>
+
+
+            
+            <p>How was your experience?</p>
+
+            <input type="radio" id="excellent" name="experience" value="excellent">
+            <label for="excellent">Excellent</label>
+
+            <input type="radio" id="good" name="experience" value="good">
+            <label for="good">Good</label>
+
+            <input type="radio" id="average" name="experience" value="average">
+            <label for="average">Average</label>
+
+            <input type="radio" id="poor" name="experience" value="poor">
+            <label for="poor">Poor</label>
+
+            <br><br>
+
+
+        
+            <label for="course">Select your Course:</label>
+
+            <select id="course" name="course">
+                <option value="mca">MCA</option>
+                <option value="bba">BBA</option>
+                <option value="bca">BCA</option>
+            </select>
+
+            <br><br>
+
+
+            <label for="comment">Your Comment:</label><br>
+
+            <textarea id="comment" name="comment" rows="4"  cols="50"  placeholder="Enter your comment here"></textarea>
+
+            <br><br>
+        
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </main>
+ <footer> &copy; Student Profile and Course Portal</footer>
+</body>
+</html>
